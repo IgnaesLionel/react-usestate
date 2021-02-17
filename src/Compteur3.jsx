@@ -12,7 +12,7 @@ const Compteur3 = () => {
     return (
         <div>
             <h6>Compteur3</h6>
-                <button onClick={increment}> {myCount} </button>     
+            <button onClick={increment}> {myCount} </button>     
         </div>
     );
 };
