@@ -11,8 +11,7 @@ function App() {
       <header className="App-header">
       <h1>Use State</h1>
       <h5>Compteur avec Hook personnalisé</h5>
-        <Compteur/>
-        <Compteur2/>
+    
         <Compteur3/>
       </header>
     </div>
