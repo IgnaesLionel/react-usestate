@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Compteur from './Compteur';
+import Compteur2 from './Compteur2';
+import Compteur3 from './Compteur3';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>Use State</h1>
+      <h5>Compteur avec Hook personnalisé</h5>
+        <Compteur/>
+        <Compteur2/>
+        <Compteur3/>
       </header>
     </div>
   );
