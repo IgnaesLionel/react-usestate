@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
 
 function useChangeState (mymessage) {
-    const [message2, setMessage2] = useState({initial : "hook personalisé"})
+    const [text, settext] = useState({initial : "hook personalisé"})
     const myModification = () => {
-        setMessage2(message2 => {return {...message2, initial : mymessage}}   
+        settext(text => {return {...text, initial : mymessage}}   
         )
     }
-    return [message2, myModification]
+    return [text, myModification]
 }
 
 const Compteur3 = () => {
