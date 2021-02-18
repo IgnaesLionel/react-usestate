@@ -8,10 +8,11 @@ const Compteur4 = () => {
         const [myCount, setMyCount] = useState(initial)
 
         const increment = (c) => c+step 
-        return[myCount, setMyCount]
+        return[myCount, increment]
     }
+    
 
-    const [count, increment] = useIncrement(10,1)
+    const [count, setCount] = useIncrement(20,1)
 
         return (
         <div>
