@@ -13,7 +13,6 @@ function useIncrement (initial, step){
 }
 
 
-
 const Compteur2 = () => {
     const [count, increment] = useIncrement(10,1);
     //crée 2 variable
@@ -23,7 +22,7 @@ const Compteur2 = () => {
         <div>
             <h6>Compteur2</h6>
             <button onClick={increment}> Incrémenter {count}</button>
-{console.log(increment)}
+            {console.log(increment)}
         </div>
     );
 };
